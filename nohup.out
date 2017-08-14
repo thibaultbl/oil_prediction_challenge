@@ -1,0 +1,874 @@
+[I 14:09:42.657 NotebookApp] The port 8888 is already in use, trying another port.
+[I 14:09:42.744 NotebookApp] Serving notebooks from local directory: /home/thibault/Documents/oilprediction_challenge
+[I 14:09:42.744 NotebookApp] 0 active kernels 
+[I 14:09:42.745 NotebookApp] The Jupyter Notebook is running at: http://localhost:8889/?token=05dbfee4bd5d9784145ba9ee889ebabe9c3d650a2c836aa6
+[I 14:09:42.745 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:09:42.749 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=05dbfee4bd5d9784145ba9ee889ebabe9c3d650a2c836aa6
+[I 14:09:43.855 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[22492:22527:0812/140943.963436:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Created new window in existing browser session.
+[I 14:10:00.243 NotebookApp] Creating new notebook in /Code/R_my_code
+[I 14:10:01.537 NotebookApp] Kernel started: 3dadf0b3-a217-4185-b103-8c8c909175cb
+[I 14:10:02.192 NotebookApp] Adapting to protocol v5.0 for kernel 3dadf0b3-a217-4185-b103-8c8c909175cb
+[I 14:12:01.494 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 14:13:12.484 NotebookApp] Kernel started: e626d47a-f6d3-4c28-bc38-16a2495cb204
+[I 14:13:13.898 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:15:12.505 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:17:12.500 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:19:12.544 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:19:59.794 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:21:12.505 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:22:31.234 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:23:12.491 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:23:24.038 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:23:51.405 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:24:23.950 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:24:27.778 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:24:44.422 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:26:14.420 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:26:45.980 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:26:58.388 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:27:11.379 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:27:22.985 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:27:32.946 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:27:57.832 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:28:01.292 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:28:06.647 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:28:17.597 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:28:29.484 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:28:33.004 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:28:35.599 NotebookApp] Kernel restarted: e626d47a-f6d3-4c28-bc38-16a2495cb204
+[I 14:28:47.852 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:29:02.532 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:29:17.427 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:29:44.941 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:30:13.412 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:32:08.292 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:58:33.203 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:58:38.835 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:59:15.944 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:59:35.566 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:59:52.888 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 15:00:08.030 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 15:00:13.232 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 15:02:47.811 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 15:02:54.025 NotebookApp] Adapting to protocol v5.0 for kernel 3dadf0b3-a217-4185-b103-8c8c909175cb
+[I 15:04:53.980 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:05:02.008 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+trying URL 'https://cran.r-project.org/src/contrib/randomForest_4.6-12.tar.gz'
+Content type 'application/x-gzip' length 79566 bytes (77 KB)
+==================================================
+downloaded 77 KB
+
+* installing *source* package ‘randomForest’ ...
+** package ‘randomForest’ successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c classTree.c -o classTree.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c regTree.c -o regTree.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c regrf.c -o regrf.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rf.c -o rf.o
+gfortran   -fpic  -g -O2 -fstack-protector-strong  -c rfsub.f -o rfsub.o
+/bin/bash: gfortran: command not found
+/usr/lib/R/etc/Makeconf:157: recipe for target 'rfsub.o' failed
+make: *** [rfsub.o] Error 127
+ERROR: compilation failed for package ‘randomForest’
+* removing ‘/home/thibault/R/x86_64-pc-linux-gnu-library/3.2/randomForest’
+[I 15:06:38.838 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 15:06:53.977 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:10:53.972 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:11:36.975 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:11:39.989 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[W 15:12:38.092 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+[I 15:12:53.979 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:13:54.900 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:14:03.645 NotebookApp] Kernel restarted: 3dadf0b3-a217-4185-b103-8c8c909175cb
+[I 15:14:03.653 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:14:04.142 NotebookApp] Adapting to protocol v5.0 for kernel 3dadf0b3-a217-4185-b103-8c8c909175cb
+[I 15:14:53.978 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:15:31.444 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:16:53.979 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:18:53.973 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:20:53.978 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:22:10.407 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[W 15:22:45.426 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+[I 15:22:53.975 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:24:24.581 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:24:53.982 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[W 15:25:06.803 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+[I 15:25:12.546 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 15:25:35.059 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[W 15:26:32.152 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+[I 15:26:53.976 NotebookApp] Saving file at /Code/R_my_code/R_notebook.ipynb
+[I 17:24:25.158 NotebookApp] The port 8888 is already in use, trying another port.
+[I 17:24:25.158 NotebookApp] The port 8889 is already in use, trying another port.
+[I 17:24:25.158 NotebookApp] The port 8890 is already in use, trying another port.
+[I 17:24:25.166 NotebookApp] Serving notebooks from local directory: /home/thibault/Documents/oilprediction_challenge
+[I 17:24:25.166 NotebookApp] 0 active kernels 
+[I 17:24:25.166 NotebookApp] The Jupyter Notebook is running at: http://localhost:8891/?token=f73dbc4bc90d67b78eb5d726a92bd44c50e16a816a4f8157
+[I 17:24:25.166 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:24:25.168 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8891/?token=f73dbc4bc90d67b78eb5d726a92bd44c50e16a816a4f8157
+[4895:4936:0812/172425.611868:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Created new window in existing browser session.
+[I 17:24:25.668 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[I 17:24:36.685 NotebookApp] Kernel started: 71abcc7b-11d0-4ef1-b2ef-28a52514679f
+[I 17:26:36.866 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:27:10.494 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:27:41.544 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:28:12.209 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:28:36.696 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:29:52.152 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:30:36.722 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:32:54.822 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:32:58.346 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:33:00.151 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:33:10.457 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:33:18.406 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:34:23.463 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:34:36.697 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:36:10.726 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:36:22.629 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:36:36.863 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:37:11.234 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:37:34.332 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:38:27.365 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:38:36.697 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:39:48.933 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:40:00.686 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:40:29.972 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:40:36.873 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:41:04.532 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:41:13.156 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:41:38.116 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:42:36.697 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:43:03.796 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:43:16.819 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:43:30.857 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:44:11.427 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:44:13.667 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:44:36.696 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:45:17.779 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:46:05.883 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:46:36.696 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:47:27.492 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:47:48.659 NotebookApp] Saving file at /Code/functions/skmice.py
+[I 17:48:31.153 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:48:53.197 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:50:24.269 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:52:51.804 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:53:45.023 NotebookApp] The port 8888 is already in use, trying another port.
+[I 17:53:45.023 NotebookApp] The port 8889 is already in use, trying another port.
+[I 17:53:45.024 NotebookApp] The port 8890 is already in use, trying another port.
+[I 17:53:45.024 NotebookApp] The port 8891 is already in use, trying another port.
+[I 17:53:45.031 NotebookApp] Serving notebooks from local directory: /home/thibault/Documents/oilprediction_challenge
+[I 17:53:45.031 NotebookApp] 0 active kernels 
+[I 17:53:45.031 NotebookApp] The Jupyter Notebook is running at: http://localhost:8892/?token=9fb4ca7c1f2da294cf281b620253f8c325304ce21f26609d
+[I 17:53:45.031 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:53:45.033 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8892/?token=9fb4ca7c1f2da294cf281b620253f8c325304ce21f26609d
+[7167:7202:0812/175345.457147:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Created new window in existing browser session.
+[I 17:53:45.486 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[I 17:54:45.744 NotebookApp] Kernel started: 17071d6e-6804-4de4-b13a-1ce6353939a5
+[I 17:56:45.865 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:58:45.741 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:01:18.589 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:25:51.496 NotebookApp] The port 8888 is already in use, trying another port.
+[I 19:25:51.496 NotebookApp] The port 8889 is already in use, trying another port.
+[I 19:25:51.496 NotebookApp] The port 8890 is already in use, trying another port.
+[I 19:25:51.496 NotebookApp] The port 8891 is already in use, trying another port.
+[I 19:25:51.496 NotebookApp] The port 8892 is already in use, trying another port.
+[I 19:25:51.504 NotebookApp] Serving notebooks from local directory: /home/thibault/Documents/oilprediction_challenge
+[I 19:25:51.504 NotebookApp] 0 active kernels 
+[I 19:25:51.504 NotebookApp] The Jupyter Notebook is running at: http://localhost:8941/?token=c9fa54ed2a23be1458686c1158b8328d10c8e690ca37ef66
+[I 19:25:51.504 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:25:51.506 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8941/?token=c9fa54ed2a23be1458686c1158b8328d10c8e690ca37ef66
+[9260:9295:0812/192551.925487:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+[I 19:25:51.939 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+Created new window in existing browser session.
+[I 19:25:58.020 NotebookApp] Kernel started: 38f02d7c-9106-4961-87df-68121eb76bdc
+[I 19:27:23.393 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:27:42.718 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:27:58.874 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:29:25.875 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:31:58.019 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:33:00.533 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:33:03.687 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:33:58.018 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:34:04.807 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:34:09.648 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:34:25.416 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:34:48.864 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:34:58.014 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:35:27.838 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:35:52.738 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:36:09.442 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:37:50.787 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:38:14.281 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:38:47.163 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:39:58.010 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:41:58.018 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:41:58.965 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:43:14.594 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:43:48.218 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:43:58.017 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:45:58.019 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:46:14.131 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:47:02.594 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:47:58.012 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:48:50.546 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:49:58.020 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:51:58.021 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:52:50.907 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:53:06.402 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:53:16.088 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:53:48.245 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:53:58.023 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:54:18.359 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:54:47.187 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:55:58.022 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:56:09.809 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:56:30.699 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:57:42.287 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:57:58.022 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:58:41.338 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:59:30.101 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:59:58.026 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:00:44.699 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:01:58.006 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:03:10.394 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:03:58.012 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:05:15.220 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:05:26.519 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:05:50.788 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:07:11.353 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:07:58.022 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:08:09.986 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:08:12.656 NotebookApp] Kernel restarted: 38f02d7c-9106-4961-87df-68121eb76bdc
+[I 20:08:51.600 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:09:06.570 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:10:15.681 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:11:12.475 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:11:32.686 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:12:15.679 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:12:18.066 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:14:15.856 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:15:51.686 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:16:03.434 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:16:15.681 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:16:20.965 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:16:34.873 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:17:06.838 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:17:33.927 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:18:04.809 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:18:15.694 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:20:15.695 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:21:46.807 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:22:15.694 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:22:43.572 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:23:36.577 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:23:39.196 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:23:42.016 NotebookApp] Kernel restarted: 38f02d7c-9106-4961-87df-68121eb76bdc
+[I 20:23:46.359 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:24:33.047 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:27:45.701 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:27:46.603 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:27:54.015 NotebookApp] Kernel restarted: 38f02d7c-9106-4961-87df-68121eb76bdc
+Traceback (most recent call last):
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-120>", line 2, in initialize
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 448, in initialize
+    self.init_sockets()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 495, in zmq.backend.cython.socket.Socket.bind (zmq/backend/cython/socket.c:5653)
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:10014)
+zmq.error.ZMQError: Address already in use
+[I 20:27:57.016 NotebookApp] KernelRestarter: restarting kernel (1/5)
+Traceback (most recent call last):
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-120>", line 2, in initialize
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 448, in initialize
+    self.init_sockets()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 495, in zmq.backend.cython.socket.Socket.bind (zmq/backend/cython/socket.c:5653)
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:10014)
+zmq.error.ZMQError: Address already in use
+[I 20:28:00.024 NotebookApp] KernelRestarter: restarting kernel (2/5)
+WARNING:root:kernel 38f02d7c-9106-4961-87df-68121eb76bdc restarted
+Traceback (most recent call last):
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-120>", line 2, in initialize
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 448, in initialize
+    self.init_sockets()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 495, in zmq.backend.cython.socket.Socket.bind (zmq/backend/cython/socket.c:5653)
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:10014)
+zmq.error.ZMQError: Address already in use
+[I 20:28:03.029 NotebookApp] KernelRestarter: restarting kernel (3/5)
+WARNING:root:kernel 38f02d7c-9106-4961-87df-68121eb76bdc restarted
+Traceback (most recent call last):
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-120>", line 2, in initialize
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 448, in initialize
+    self.init_sockets()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 495, in zmq.backend.cython.socket.Socket.bind (zmq/backend/cython/socket.c:5653)
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:10014)
+zmq.error.ZMQError: Address already in use
+[I 20:28:06.040 NotebookApp] KernelRestarter: restarting kernel (4/5)
+WARNING:root:kernel 38f02d7c-9106-4961-87df-68121eb76bdc restarted
+Traceback (most recent call last):
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-120>", line 2, in initialize
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 448, in initialize
+    self.init_sockets()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 495, in zmq.backend.cython.socket.Socket.bind (zmq/backend/cython/socket.c:5653)
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:10014)
+zmq.error.ZMQError: Address already in use
+[W 20:28:09.049 NotebookApp] KernelRestarter: restart failed
+[W 20:28:09.050 NotebookApp] Kernel 38f02d7c-9106-4961-87df-68121eb76bdc died, removing from map.
+[W 20:28:09.050 NotebookApp] Restarting kernel failed: 38f02d7c-9106-4961-87df-68121eb76bdc
+[E 20:28:09.051 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 90, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/tornado/gen.py", line 1055, in run
+        value = future.result()
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/tornado/concurrent.py", line 238, in result
+        raise_exc_info(self._exc_info)
+      File "<string>", line 4, in raise_exc_info
+    RuntimeError: Restart failed
+[E 20:28:09.083 NotebookApp] {
+      "Host": "localhost:8941",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://localhost:8941",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|d1e64d42|3727186e25fdd355cfade784900286d2|1502299524",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36",
+      "Referer": "http://localhost:8941/notebooks/Code/notebook.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Cookie": "_xsrf=2|d1e64d42|3727186e25fdd355cfade784900286d2|1502299524; username-localhost-8888=\"2|1:0|10:1502531750|23:username-localhost-8888|44:MTEwMjA3NTZjZjNiNDc4Yjg2MjFkMzliYmE3YzJhZTE=|d01ba766793f2b5755a324ae64d52b08c07538c4c3f29ef770cb354e99571adf\"; username-localhost-8889=\"2|1:0|10:1502539783|23:username-localhost-8889|44:OGY2OGY3ODJhN2ZhNDRhZGFmNDgxZTM3MjgwNjA3MDM=|17f52c3fedef35643b2f65884f91796eddacc830ecaaf1b9bcd813de110dbf8f\"; username-localhost-8890=\"2|1:0|10:1502551426|23:username-localhost-8890|44:MDVhNDliYzRkMDMzNDI0ZWIyNTUwZjVmMGU3M2VkY2E=|0d2f9f291c609ea427d0429c35bab0b914cc56dc5a8a9235fcd7793138e20c3f\"; username-localhost-8891=\"2|1:0|10:1502551465|23:username-localhost-8891|44:ODNlNmQ1ZGVkYmM2NGViZmI2MzA4NDJhYWMxYmFhMDI=|84d27946bebeb885957a0c6734ed5d913c97fb27a7160d8c0441ef19964c2a68\"; username-localhost-8892=\"2|1:0|10:1502553225|23:username-localhost-8892|44:NzM3ZjA1ZTFhNjY3NGNkZTkxZmQ3OTc2ZTRkMjg5YTg=|d31a0f25eb91454e15abbcbc53e51b4188d89911183b3c898d6394bfacd2eb80\"; username-localhost-8941=\"2|1:0|10:1502558751|23:username-localhost-8941|44:YjkzMjk3OTcxZDhhNDMwMzk0YTFlY2IwOWNiMWQxNzU=|9a6287537e2a3dbf5c42d70f75c6fcf69604c5619ad9ece7fa02086bd4c0d1fe\""
+    }
+[E 20:28:09.083 NotebookApp] 500 POST /api/kernels/38f02d7c-9106-4961-87df-68121eb76bdc/restart (127.0.0.1) 20109.50ms referer=http://localhost:8941/notebooks/Code/notebook.ipynb
+[E 20:28:09.096 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 90, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/notebook/services/kernels/kernelmanager.py", line 120, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/notebook/services/kernels/kernelmanager.py", line 199, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 38f02d7c-9106-4961-87df-68121eb76bdc)
+[E 20:28:09.097 NotebookApp] {
+      "Host": "localhost:8941",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://localhost:8941",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|d1e64d42|3727186e25fdd355cfade784900286d2|1502299524",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36",
+      "Referer": "http://localhost:8941/notebooks/Code/notebook.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Cookie": "_xsrf=2|d1e64d42|3727186e25fdd355cfade784900286d2|1502299524; username-localhost-8888=\"2|1:0|10:1502531750|23:username-localhost-8888|44:MTEwMjA3NTZjZjNiNDc4Yjg2MjFkMzliYmE3YzJhZTE=|d01ba766793f2b5755a324ae64d52b08c07538c4c3f29ef770cb354e99571adf\"; username-localhost-8889=\"2|1:0|10:1502539783|23:username-localhost-8889|44:OGY2OGY3ODJhN2ZhNDRhZGFmNDgxZTM3MjgwNjA3MDM=|17f52c3fedef35643b2f65884f91796eddacc830ecaaf1b9bcd813de110dbf8f\"; username-localhost-8890=\"2|1:0|10:1502551426|23:username-localhost-8890|44:MDVhNDliYzRkMDMzNDI0ZWIyNTUwZjVmMGU3M2VkY2E=|0d2f9f291c609ea427d0429c35bab0b914cc56dc5a8a9235fcd7793138e20c3f\"; username-localhost-8891=\"2|1:0|10:1502551465|23:username-localhost-8891|44:ODNlNmQ1ZGVkYmM2NGViZmI2MzA4NDJhYWMxYmFhMDI=|84d27946bebeb885957a0c6734ed5d913c97fb27a7160d8c0441ef19964c2a68\"; username-localhost-8892=\"2|1:0|10:1502553225|23:username-localhost-8892|44:NzM3ZjA1ZTFhNjY3NGNkZTkxZmQ3OTc2ZTRkMjg5YTg=|d31a0f25eb91454e15abbcbc53e51b4188d89911183b3c898d6394bfacd2eb80\"; username-localhost-8941=\"2|1:0|10:1502558751|23:username-localhost-8941|44:YjkzMjk3OTcxZDhhNDMwMzk0YTFlY2IwOWNiMWQxNzU=|9a6287537e2a3dbf5c42d70f75c6fcf69604c5619ad9ece7fa02086bd4c0d1fe\""
+    }
+[E 20:28:09.098 NotebookApp] 500 POST /api/kernels/38f02d7c-9106-4961-87df-68121eb76bdc/restart (127.0.0.1) 3.74ms referer=http://localhost:8941/notebooks/Code/notebook.ipynb
+[W 20:28:09.113 NotebookApp] Kernel deleted before session
+[W 20:28:09.113 NotebookApp] 410 DELETE /api/sessions/76eaf1fa-4e56-4248-a4d9-1375701ad2a5 (127.0.0.1) 1.44ms referer=http://localhost:8941/notebooks/Code/notebook.ipynb
+[I 20:28:09.132 NotebookApp] Kernel started: 4f3c3b1a-cf26-4ccf-8220-67707b10ed2d
+[I 20:29:56.640 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:29:58.907 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:19:43.061 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:19:57.221 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:54:49.935 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 17:54:54.968 NotebookApp] Serving notebooks from local directory: /home/thibault/Documents/oilprediction_challenge
+[I 17:54:54.968 NotebookApp] 0 active kernels 
+[I 17:54:54.968 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=4b41a17717731e0499b734adc7d607a07362279581ed8873
+[I 17:54:54.969 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:54:54.973 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=4b41a17717731e0499b734adc7d607a07362279581ed8873
+[I 17:54:55.532 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[3613:3648:0813/175455.535083:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Created new window in existing browser session.
+[I 17:55:02.776 NotebookApp] Kernel started: 9e631144-7ac1-4515-b14c-baa885a1163b
+[I 17:55:03.489 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 17:57:02.744 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:45:03.576 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 19:47:03.572 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:09:02.731 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:11:02.728 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:13:02.736 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:20:06.264 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:21:02.755 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:22:44.072 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:22:58.343 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:23:03.203 NotebookApp] Kernel restarted: 9e631144-7ac1-4515-b14c-baa885a1163b
+[I 20:23:12.971 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:23:58.898 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:25:02.744 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:25:25.492 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:32:02.064 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:33:59.919 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:35:03.588 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:37:02.745 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:37:06.799 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:37:08.612 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:39:03.588 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:41:03.586 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:43:02.737 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:43:41.060 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:44:12.391 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:45:02.748 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:45:15.713 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:46:56.592 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:47:01.204 NotebookApp] Kernel restarted: 9e631144-7ac1-4515-b14c-baa885a1163b
+[I 20:49:03.568 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:51:03.585 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 20:57:03.595 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 21:03:02.770 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 21:03:48.065 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 21:04:41.965 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 21:05:03.616 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 21:06:38.377 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 21:07:02.755 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 21:07:27.680 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 21:09:03.584 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 21:29:02.820 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 21:31:02.758 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 21:31:20.929 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:07:34.291 NotebookApp] Kernel interrupted: 9e631144-7ac1-4515-b14c-baa885a1163b
+[I 22:07:36.617 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:08:08.311 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:08:15.460 NotebookApp] Kernel restarted: 9e631144-7ac1-4515-b14c-baa885a1163b
+Traceback (most recent call last):
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-120>", line 2, in initialize
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 448, in initialize
+    self.init_sockets()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 495, in zmq.backend.cython.socket.Socket.bind (zmq/backend/cython/socket.c:5653)
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:10014)
+zmq.error.ZMQError: Address already in use
+[I 22:08:18.462 NotebookApp] KernelRestarter: restarting kernel (1/5)
+Traceback (most recent call last):
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-120>", line 2, in initialize
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 448, in initialize
+    self.init_sockets()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 495, in zmq.backend.cython.socket.Socket.bind (zmq/backend/cython/socket.c:5653)
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:10014)
+zmq.error.ZMQError: Address already in use
+[I 22:08:21.470 NotebookApp] KernelRestarter: restarting kernel (2/5)
+Traceback (most recent call last):
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-120>", line 2, in initialize
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 448, in initialize
+    self.init_sockets()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 495, in zmq.backend.cython.socket.Socket.bind (zmq/backend/cython/socket.c:5653)
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:10014)
+zmq.error.ZMQError: Address already in use
+[I 22:08:24.480 NotebookApp] KernelRestarter: restarting kernel (3/5)
+WARNING:root:kernel 9e631144-7ac1-4515-b14c-baa885a1163b restarted
+Traceback (most recent call last):
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-120>", line 2, in initialize
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 448, in initialize
+    self.init_sockets()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 495, in zmq.backend.cython.socket.Socket.bind (zmq/backend/cython/socket.c:5653)
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:10014)
+zmq.error.ZMQError: Address already in use
+[I 22:08:27.492 NotebookApp] KernelRestarter: restarting kernel (4/5)
+WARNING:root:kernel 9e631144-7ac1-4515-b14c-baa885a1163b restarted
+Traceback (most recent call last):
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-120>", line 2, in initialize
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 448, in initialize
+    self.init_sockets()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 495, in zmq.backend.cython.socket.Socket.bind (zmq/backend/cython/socket.c:5653)
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:10014)
+zmq.error.ZMQError: Address already in use
+[I 22:08:30.088 NotebookApp] Kernel restarted: 9e631144-7ac1-4515-b14c-baa885a1163b
+Traceback (most recent call last):
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/thibault/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-120>", line 2, in initialize
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 448, in initialize
+    self.init_sockets()
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/thibault/anaconda3/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 495, in zmq.backend.cython.socket.Socket.bind (zmq/backend/cython/socket.c:5653)
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:10014)
+zmq.error.ZMQError: Address already in use
+[W 22:08:33.088 NotebookApp] KernelRestarter: restart failed
+[W 22:08:33.089 NotebookApp] Kernel 9e631144-7ac1-4515-b14c-baa885a1163b died, removing from map.
+[W 22:08:33.089 NotebookApp] Restarting kernel failed: 9e631144-7ac1-4515-b14c-baa885a1163b
+[E 22:08:33.090 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 90, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/tornado/gen.py", line 1055, in run
+        value = future.result()
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/tornado/concurrent.py", line 238, in result
+        raise_exc_info(self._exc_info)
+      File "<string>", line 4, in raise_exc_info
+    RuntimeError: Restart failed
+[E 22:08:33.128 NotebookApp] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://localhost:8888",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|d1e64d42|3727186e25fdd355cfade784900286d2|1502299524",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36",
+      "Referer": "http://localhost:8888/notebooks/Code/notebook.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Cookie": "_xsrf=2|d1e64d42|3727186e25fdd355cfade784900286d2|1502299524; username-localhost-8889=\"2|1:0|10:1502539783|23:username-localhost-8889|44:OGY2OGY3ODJhN2ZhNDRhZGFmNDgxZTM3MjgwNjA3MDM=|17f52c3fedef35643b2f65884f91796eddacc830ecaaf1b9bcd813de110dbf8f\"; username-localhost-8890=\"2|1:0|10:1502551426|23:username-localhost-8890|44:MDVhNDliYzRkMDMzNDI0ZWIyNTUwZjVmMGU3M2VkY2E=|0d2f9f291c609ea427d0429c35bab0b914cc56dc5a8a9235fcd7793138e20c3f\"; username-localhost-8891=\"2|1:0|10:1502551465|23:username-localhost-8891|44:ODNlNmQ1ZGVkYmM2NGViZmI2MzA4NDJhYWMxYmFhMDI=|84d27946bebeb885957a0c6734ed5d913c97fb27a7160d8c0441ef19964c2a68\"; username-localhost-8892=\"2|1:0|10:1502553225|23:username-localhost-8892|44:NzM3ZjA1ZTFhNjY3NGNkZTkxZmQ3OTc2ZTRkMjg5YTg=|d31a0f25eb91454e15abbcbc53e51b4188d89911183b3c898d6394bfacd2eb80\"; username-localhost-8941=\"2|1:0|10:1502558751|23:username-localhost-8941|44:YjkzMjk3OTcxZDhhNDMwMzk0YTFlY2IwOWNiMWQxNzU=|9a6287537e2a3dbf5c42d70f75c6fcf69604c5619ad9ece7fa02086bd4c0d1fe\"; username-localhost-8888=\"2|1:0|10:1502639695|23:username-localhost-8888|44:OGI5Y2JhMjczN2UyNDM2MGJlOWUwMTljOTljYWZmYTA=|04ff1c4c0536acdab8e3840ecb00c5132638f1d5804b8b34bfa615253fcc54e4\""
+    }
+[E 22:08:33.128 NotebookApp] 500 POST /api/kernels/9e631144-7ac1-4515-b14c-baa885a1163b/restart (127.0.0.1) 22696.53ms referer=http://localhost:8888/notebooks/Code/notebook.ipynb
+[I 22:08:53.711 NotebookApp] Saving file at /Code/notebook.ipynb
+[W 22:09:00.096 NotebookApp] Timeout waiting for kernel_info_reply: 9e631144-7ac1-4515-b14c-baa885a1163b
+[E 22:09:00.097 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 90, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/tornado/gen.py", line 1055, in run
+        value = future.result()
+      File "/home/thibault/anaconda3/lib/python3.6/site-packages/tornado/concurrent.py", line 238, in result
+        raise_exc_info(self._exc_info)
+      File "<string>", line 4, in raise_exc_info
+    tornado.gen.TimeoutError: Timeout waiting for restart
+[E 22:09:00.098 NotebookApp] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://localhost:8888",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|d1e64d42|3727186e25fdd355cfade784900286d2|1502299524",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36",
+      "Referer": "http://localhost:8888/notebooks/Code/notebook.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Cookie": "_xsrf=2|d1e64d42|3727186e25fdd355cfade784900286d2|1502299524; username-localhost-8889=\"2|1:0|10:1502539783|23:username-localhost-8889|44:OGY2OGY3ODJhN2ZhNDRhZGFmNDgxZTM3MjgwNjA3MDM=|17f52c3fedef35643b2f65884f91796eddacc830ecaaf1b9bcd813de110dbf8f\"; username-localhost-8890=\"2|1:0|10:1502551426|23:username-localhost-8890|44:MDVhNDliYzRkMDMzNDI0ZWIyNTUwZjVmMGU3M2VkY2E=|0d2f9f291c609ea427d0429c35bab0b914cc56dc5a8a9235fcd7793138e20c3f\"; username-localhost-8891=\"2|1:0|10:1502551465|23:username-localhost-8891|44:ODNlNmQ1ZGVkYmM2NGViZmI2MzA4NDJhYWMxYmFhMDI=|84d27946bebeb885957a0c6734ed5d913c97fb27a7160d8c0441ef19964c2a68\"; username-localhost-8892=\"2|1:0|10:1502553225|23:username-localhost-8892|44:NzM3ZjA1ZTFhNjY3NGNkZTkxZmQ3OTc2ZTRkMjg5YTg=|d31a0f25eb91454e15abbcbc53e51b4188d89911183b3c898d6394bfacd2eb80\"; username-localhost-8941=\"2|1:0|10:1502558751|23:username-localhost-8941|44:YjkzMjk3OTcxZDhhNDMwMzk0YTFlY2IwOWNiMWQxNzU=|9a6287537e2a3dbf5c42d70f75c6fcf69604c5619ad9ece7fa02086bd4c0d1fe\"; username-localhost-8888=\"2|1:0|10:1502639695|23:username-localhost-8888|44:OGI5Y2JhMjczN2UyNDM2MGJlOWUwMTljOTljYWZmYTA=|04ff1c4c0536acdab8e3840ecb00c5132638f1d5804b8b34bfa615253fcc54e4\""
+    }
+[E 22:09:00.099 NotebookApp] 500 POST /api/kernels/9e631144-7ac1-4515-b14c-baa885a1163b/restart (127.0.0.1) 30019.39ms referer=http://localhost:8888/notebooks/Code/notebook.ipynb
+[W 22:09:00.115 NotebookApp] Kernel deleted before session
+[W 22:09:00.116 NotebookApp] 410 DELETE /api/sessions/1e07e84d-6582-45d5-9031-ee574bc22417 (127.0.0.1) 4.28ms referer=http://localhost:8888/notebooks/Code/notebook.ipynb
+[I 22:09:00.150 NotebookApp] Kernel started: 8cd69105-1e29-4fb3-adbb-b914c4910526
+[I 22:10:23.126 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:12:23.143 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:13:22.012 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:14:23.567 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:14:43.367 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:15:02.403 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:15:20.589 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:16:23.150 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:16:33.142 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:17:22.523 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:19:30.600 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:19:54.971 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:20:03.786 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:20:11.043 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:22:15.906 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:22:47.713 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:23:01.075 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:24:23.579 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:26:06.108 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:26:23.278 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:26:26.813 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:26:32.015 NotebookApp] Kernel restarted: 8cd69105-1e29-4fb3-adbb-b914c4910526
+[I 22:27:16.007 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:28:30.255 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:28:36.990 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:30:00.902 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:30:36.979 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:30:59.677 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:31:02.701 NotebookApp] Kernel restarted: 8cd69105-1e29-4fb3-adbb-b914c4910526
+[I 22:32:58.481 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:34:31.604 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:35:07.625 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:35:33.855 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:35:40.254 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:36:42.835 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:36:55.643 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:37:07.614 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:38:12.569 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:38:40.487 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:38:56.097 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:39:07.615 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:39:58.450 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:41:07.504 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:41:07.725 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:41:34.749 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:41:56.965 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:42:04.039 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:42:10.017 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:42:26.649 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:43:07.633 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:43:46.037 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:43:58.784 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:45:07.636 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:45:14.513 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:47:07.636 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:47:50.084 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:48:59.794 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:49:16.481 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:51:07.631 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:51:27.411 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:53:07.667 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:53:36.394 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:54:31.533 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:55:07.621 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:55:35.616 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:55:58.433 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:56:50.726 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:57:07.617 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:58:08.882 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 22:58:15.565 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 08:47:25.427 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 08:47:26.636 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 08:47:45.313 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 08:51:33.581 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 08:52:35.935 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 08:52:45.724 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 08:52:52.941 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 08:52:57.643 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 08:58:49.849 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 08:59:07.052 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 08:59:16.378 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:01:07.655 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:03:07.641 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:04:15.781 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:06:35.042 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:06:52.355 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:07:02.917 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:07:13.608 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:08:03.324 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:08:10.304 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:08:40.331 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:08:44.606 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:09:07.640 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:09:11.697 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:09:15.935 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:09:45.315 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:09:49.507 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:11:07.635 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:11:28.827 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:11:44.267 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:11:51.000 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:12:00.880 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:12:18.581 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:13:07.637 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:13:34.893 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:13:50.239 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:14:07.159 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:14:37.281 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:15:07.647 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:15:08.540 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:15:39.902 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:16:42.858 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:18:06.405 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:18:33.729 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:18:45.021 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:23:07.634 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:24:16.100 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:24:27.724 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:24:40.244 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:24:48.704 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:25:07.635 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:25:07.876 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:26:10.746 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:27:07.626 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:27:23.103 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:28:03.345 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:29:07.648 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:31:07.652 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:35:07.631 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:37:07.625 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:49:42.533 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:49:59.304 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:50:25.948 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:51:07.636 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:51:22.299 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:51:30.304 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:57:07.635 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:57:11.937 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:57:20.106 NotebookApp] Kernel restarted: 8cd69105-1e29-4fb3-adbb-b914c4910526
+[I 09:57:24.134 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:57:42.606 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 09:59:22.663 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 10:03:22.582 NotebookApp] Saving file at /Code/notebook.ipynb
