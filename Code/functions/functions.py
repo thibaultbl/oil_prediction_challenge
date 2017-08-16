@@ -108,3 +108,7 @@ class ImputerWithMedianGroupby(BaseEstimator, TransformerMixin):
     def fit(self, *_):
         self.median_value = self.groupby(["country", "month"]).median()
         return self
+
+def describe_normal_outliers(pandas_series):
+    outliers = (np.abs(pandas_series-pandas_series.mean())>(3*pandas_series.std()))
+    return({"sum": outliers.sum(), "mean":outliers.mean()})
