@@ -26,12 +26,38 @@ def binary_if_null(x):
     return(result)
 
 def percentile(n):
+    """Function used to return percentile in
+    pandas groupby().apply(
+    
+    Parameters
+    ----
+    n: percentile to return
+    
+    Return
+    ----
+    Percentile: float
+    
+    """
     def percentile_(x):
         return np.nanpercentile(x, n)
     percentile_.__name__ = 'percentile_%s' % n
     return percentile_
 
 def new_name_if_not_id(x, prefix_name=None, ID="ID"):
+    """Function to rename element if element different
+    than ID (mostly used in list or Series)
+        
+        
+    Parameters
+    ----
+    x: original name
+    prefix_name: prefix to add at beggining of name
+    ID: name of ID (element equals to ID will not be modified)
+    
+    Return
+    ----
+    New name if x != ID or unmodified x if ID: str
+    """
     if x != ID:
         new_name = prefix_name + x
     else:
@@ -39,6 +65,17 @@ def new_name_if_not_id(x, prefix_name=None, ID="ID"):
     return(new_name)
 
 def data_frame_as_Series(dataframe):
+    """From a pandas DataFrame with one or multiple column,
+    return a Series with column elements one after one
+    
+    Parameter
+    ----
+    dataframe: Pandas DataFrame as input
+    
+    Return
+    ----
+    Series with element of different column one after the other: list
+    """
     return(pd.Series(list(it.chain(*dataframe.values))))
 
 class Replace0(BaseEstimator, TransformerMixin):
