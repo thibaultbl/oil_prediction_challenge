@@ -112,3 +112,12 @@ class ImputerWithMedianGroupby(BaseEstimator, TransformerMixin):
 def describe_normal_outliers(pandas_series):
     outliers = (np.abs(pandas_series-pandas_series.mean())>(3*pandas_series.std()))
     return({"sum": outliers.sum(), "mean":outliers.mean()})
+
+def get_useless_variable(estimator, x_train):
+    variable_importance =\
+    pd.concat([pd.DataFrame(x_train.columns),
+               pd.DataFrame(estimator.feature_importances_)], axis=1)
+    variable_importance.columns =["variable", "importance"]
+    
+    useless_variable = variable_importance.loc[variable_importance.importance == 0, :]
+    return(useless_variable.variable)
