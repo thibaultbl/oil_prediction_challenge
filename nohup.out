@@ -872,3 +872,68 @@ zmq.error.ZMQError: Address already in use
 [I 09:57:42.606 NotebookApp] Saving file at /Code/notebook.ipynb
 [I 09:59:22.663 NotebookApp] Saving file at /Code/notebook.ipynb
 [I 10:03:22.582 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:08:01.668 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 14:08:06.494 NotebookApp] Serving notebooks from local directory: /home/thibault/Documents/oilprediction_challenge
+[I 14:08:06.494 NotebookApp] 0 active kernels 
+[I 14:08:06.494 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=3b2f8f7bc32b998a02c86efd336356c7b85af5abc7ee71d5
+[I 14:08:06.494 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:08:06.499 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=3b2f8f7bc32b998a02c86efd336356c7b85af5abc7ee71d5
+[I 14:08:07.053 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[2599:2634:0819/140807.066054:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Created new window in existing browser session.
+[I 14:08:14.811 NotebookApp] Kernel started: 967c5233-0e7d-40de-ac25-2071728d8f5b
+[I 14:08:49.833 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:09:24.736 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:09:32.288 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 14:09:37.900 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:26:57.278 NotebookApp] The port 8888 is already in use, trying another port.
+[I 18:26:57.284 NotebookApp] Serving notebooks from local directory: /home/thibault/Documents/oilprediction_challenge
+[I 18:26:57.284 NotebookApp] 0 active kernels 
+[I 18:26:57.284 NotebookApp] The Jupyter Notebook is running at: http://localhost:8889/?token=9942fc0e476cc312c546eccca63de263eaaeb9a10aee1c0f
+[I 18:26:57.284 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:26:57.286 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=9942fc0e476cc312c546eccca63de263eaaeb9a10aee1c0f
+[7426:7461:0819/182657.683187:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Created new window in existing browser session.
+[I 18:26:57.721 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[I 18:38:14.967 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 18:38:20.047 NotebookApp] Serving notebooks from local directory: /home/thibault/Documents/oilprediction_challenge
+[I 18:38:20.047 NotebookApp] 0 active kernels 
+[I 18:38:20.047 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=86247720967f645c9312775b052ce094613929004eaacb0d
+[I 18:38:20.047 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:38:20.055 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=86247720967f645c9312775b052ce094613929004eaacb0d
+[3603:3637:0917/183820.815847:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Created new window in existing browser session.
+[I 18:38:20.826 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[I 18:39:01.858 NotebookApp] Kernel started: 008d0417-f0d8-4d06-bc4a-0cc53386e11e
+[I 18:39:03.270 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:40:06.638 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:40:13.825 NotebookApp] Kernel restarted: 008d0417-f0d8-4d06-bc4a-0cc53386e11e
+[I 18:41:27.476 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:42:04.900 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:42:15.393 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:42:40.543 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:43:07.519 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:43:23.262 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:43:43.739 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:43:52.385 NotebookApp] Kernel restarted: 008d0417-f0d8-4d06-bc4a-0cc53386e11e
+[I 18:44:18.365 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:45:01.558 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:45:12.242 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:45:17.688 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:45:22.974 NotebookApp] Kernel restarted: 008d0417-f0d8-4d06-bc4a-0cc53386e11e
+[I 18:47:30.029 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:49:30.522 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:51:07.097 NotebookApp] Saving file at /Code/notebook.ipynb
+[I 18:51:15.104 NotebookApp] Saving file at /Code/notebook.ipynb
